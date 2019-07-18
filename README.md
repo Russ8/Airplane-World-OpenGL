@@ -1,7 +1,7 @@
 # Airplane-Game-OpenGL
 Fly an airplane through a procedural and vast desert. Written in c++ using OpenGL with GLFW3 &amp; Glad. 
 
-Features:  
+#### Features:  
 *Procedural terrain  
 *dynamic level of detail  
 *airplane/ground collision  
@@ -9,12 +9,15 @@ Features:
 *skybox  
 *fog  
 
+## Instructions (linux):  
 Build:   
-Using makefile provided:  ``` $ make ```  (requires GLFW3 & Glew libraries)   
+```$ cd src```   
+```$ make ```  (requires GLFW3 & Glew libraries)   
 
-Run program:   ```./run```  
+#### Run program:   
+```$ ./run```  
 
-Controls:   
+## Controls:   
 *E speed – necessary for the plane to leave the ground.   
 *A bank left   
 *D bank right   
